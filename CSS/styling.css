@@ -1,0 +1,78 @@
+.bg {
+	background-color: pink;
+
+	/* gradient background */
+	background: rgb(223, 209, 134);
+	background: linear-gradient(54deg, rgba(223, 209, 134, 1) 0%, rgba(224, 134, 37, 1) 38%, rgba(226, 233, 132, 1) 100%);
+
+	/* background image */
+	/* background-image: url("https://images.unsplash.com/photo-1614849286447-fb815456e5a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpZ2h0JTIwY29sb3VyfGVufDB8fDB8fHww&w=1000&q=80"); */
+	background-image: url("./images/background.jpg");
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.font-sample {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: aquamarine;
+	color: darkgrey;
+}
+
+.text-sample {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	font-size: 20px;
+}
+
+#spacing-sample {
+	line-height: 45px;
+	letter-spacing: 5px;
+	text-indent: 20px;
+	background-color: antiquewhite;
+}
+
+#shadow-sample {
+	text-shadow: 10px 5px 10px rgb(43, 34, 170);
+	/* text-shadow: x-coordinate y-coordinate blur-radius color of the shadow*/
+}
+
+.box-model {
+	background-color: rgb(201, 169, 201);
+	height: 100px;
+	width: 80px;
+
+	padding: 10px 20px 5px 25px;
+	padding-top: 25px;
+
+	border-color: crimson;
+	border-width: 5px;
+	border-style: dotted;
+	border: 10px dashed orange;
+
+	border-top: 5px solid purple;
+	border-right: 5px dashed blue;
+	border-bottom: 8px dotted green;
+	border-left: 8px double orangered;
+
+	/* border: border-width || border-style || border-color */
+
+	margin: 5px 10px 40px 8px;
+	margin-left: 50px;
+	/* 
+    == MARGIN & PADDING ==
+
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top side || left and right side || bottom side
+    4 value = top side || right side || bottom side || left side 
+
+
+*/
+}
